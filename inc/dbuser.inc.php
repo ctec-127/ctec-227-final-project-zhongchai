@@ -19,11 +19,12 @@ while ($row = $result->fetch_assoc()) {
 
     // declare arrays to store database content
     $user_id = $row['user_id'];
-    $username = "";
-    $email = "";
-    $password = "";
-    $member_type = "";
-    $premium = "";
-    $pay_date = "";
+    $username = $row['username'];
+    $email = $row['email'];
+    $password = $row['password'];
+    $member_type = $row['member_type'];
+    $premium = $row['premium'];
+    $pay_date = $row['pay_date'];
+}
 
 ?>

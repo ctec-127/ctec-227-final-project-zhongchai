@@ -1,0 +1,19 @@
+footer {
+    margin-top: 10px;
+}
+
+.img-container img {
+    width: 80%;
+}
+
+.success {
+    background-color: rgb(219, 255, 179) !important;
+    border: 2px rgb(18, 105, 0) !important;
+    padding: 20px !important;
+}
+
+.error {
+    background-color: rgb(255, 194, 194) !important;
+    border: 2px rgb(175, 0, 0) !important;
+    padding: 20px !important;
+}
